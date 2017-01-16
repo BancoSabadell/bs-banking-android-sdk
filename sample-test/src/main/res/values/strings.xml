@@ -1,0 +1,16 @@
+<resources>
+  <string name="app_name">BsToken</string>
+  <string name="address">Address</string>
+  <string name="tokenize">Tokenize</string>
+  <string name="cashIn">Cash in</string>
+  <string name="cashOut">Cash out</string>
+  <string name="amount">Amount</string>
+  <string name="password">Password</string>
+  <string name="bank_account">Bank account</string>
+  <string name="balanceOf">Balance of</string>
+  <string name="clear_cache">Clear cache</string>
+  <string name="success_tokenize">Success tokenize</string>
+  <string name="success_cash_in">Success cash in</string>
+  <string name="success_cash_out">Success tokenize</string>
+  <string name="failure">Failure</string>
+</resources>
