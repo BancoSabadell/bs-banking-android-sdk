@@ -1,3 +1,3 @@
-# SDK Android BsToken
+# SDK Android BsBanking
 
-### Android sdk for BsToken payment system.
+### Android sdk for BsBanking.

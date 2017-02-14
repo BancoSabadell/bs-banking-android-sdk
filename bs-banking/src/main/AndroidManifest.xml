@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sabadell.bs_banking">
+
+  <application>
+    <activity android:name="com.sabadell.bs_banking.internal.presentation.RedsysPaymentActivity"
+        android:screenOrientation="portrait"/>
+    <activity android:name="com.sabadell.bs_banking.internal.presentation.RedsysTokenizeCreditCardActivity"
+        android:screenOrientation="portrait"/>
+  </application>
+
+</manifest>

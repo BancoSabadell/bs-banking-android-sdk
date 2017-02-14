@@ -1,1 +1,1 @@
-include ':sample-test', ':bs-token'
+include ':sample-test', ':bs-banking'

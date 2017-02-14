@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">BsToken</string>
+  <string name="app_name">BsBanking</string>
   <string name="address">Address</string>
   <string name="tokenize">Tokenize</string>
   <string name="cash_in">Cash in</string>
