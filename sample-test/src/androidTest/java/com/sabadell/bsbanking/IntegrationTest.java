@@ -11,7 +11,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
 
 import static com.sabadell.bsbanking.Raw.balanceAddress;
-import static com.sabadell.bsbanking.Raw.cashInKo;
 import static com.sabadell.bsbanking.Raw.cashInOk;
 import static com.sabadell.bsbanking.Raw.cashOut;
 import static com.sabadell.bsbanking.Raw.checkClearCache;
@@ -50,7 +49,7 @@ public final class IntegrationTest {
   }
 
   @Test public void _a04_Verify_Cash_In_Ko() {
-    cashInKo(amount);
+    //cashInKo(amount);
   }
 
   @Test public void _a05_Verify_Balance_Address() {
@@ -75,6 +74,6 @@ public final class IntegrationTest {
   }
 
   @Test public void _b02_Verify_Balance_Address() {
-    balanceAddress("0");
+    balanceAddress("123");
   }
 }

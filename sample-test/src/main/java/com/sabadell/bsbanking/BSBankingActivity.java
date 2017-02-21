@@ -91,7 +91,7 @@ public final class BSBankingActivity extends AppCompatActivity {
   }
 
   interface ApiEscrow {
-    String URL_BASE = "http://localhost:8081/escrow/test/api/v1/";
+    String URL_BASE = "http://admin-hackathon.westeurope.cloudapp.azure.com:8081/escrow/api/v1/";
 
     @GET("balance/{account}") Observable<Response<Balance>> balanceOf(
         @Path("account") String account);
