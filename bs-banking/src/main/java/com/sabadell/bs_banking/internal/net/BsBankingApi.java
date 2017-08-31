@@ -8,7 +8,7 @@ import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.POST;
 
 public interface BsBankingApi {
-  String URL_BASE = "http://admin-hackathon.westeurope.cloudapp.azure.com:8080/bs_banking/api/v1/";
+  String URL_BASE = "http://innochain.innocells.io:8082/bs_banking/api/v1/";
   String URL_BASE_DEV = "http://admin-hackathon.westeurope.cloudapp.azure.com:8081/bs_banking/api/v1/";
 
   @FormUrlEncoded
